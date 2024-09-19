@@ -3,14 +3,423 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SewaCenter</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </head>
 <body>
-    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sit magnam quae, accusamus blanditiis!</h1>
-    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sit magnam quae, accusamus blanditiis!</h1>
-    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sit magnam quae, accusamus blanditiis!</h1>
-    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis sit magnam quae, accusamus blanditiis!</h1>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>SewaCenter</h1>
+                </div>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#how-to-order">How It Works</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#my-vision">My Vision</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Your Trusted Service Partner</h1>
+                    <p>Access essential government, banking, and insurance services at your doorstep.</p>
+                    <a href="#services" class="btn-primary">Explore Services</a>
+                </div>
+                <div class="hero-image">
+                    <img src="1.jpg" alt="CSC Center Services">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <!-- Government Services -->
+                <div class="service-category">
+                    <div class="service-category-header">
+                        <h3>Government Services</h3>
+                    </div>
+                    <div class="service-list">
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Ayushman Card</h4>
+                                <p>Apply for health benefits</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Life Certificate</h4>
+                                <p>Digital life certificate for pensioners</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>PAN Card</h4>
+                                <p>New applications and corrections</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>KKC</h4>
+                                <p>Digital life certificate for pensioners</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>E-Shram Card</h4>
+                                <p>Digital life certificate for pensioners</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bill Payment Services -->
+                <div class="service-category">
+                    <div class="service-category-header">
+                        <h3>Bill Payment</h3>
+                    </div>
+                    <div class="service-list">
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Mobile Recharge</h4>
+                                <p>Recharge your mobile</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-wifi"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Broadband Bill</h4>
+                                <p>Pay your broadband bill</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Electric Bill</h4>
+                                <p>Pay your electric bill</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Gas Bill</h4>
+                                <p>Pay your gas bill</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banking Services -->
+                <div class="service-category">
+                    <div class="service-category-header">
+                        <h3>Banking Services</h3>
+                    </div>
+                    <div class="service-list">
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-piggy-bank"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Deposit</h4>
+                                <p>Secure cash deposits</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-hand-holding-usd"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Withdrawal</h4>
+                                <p>Quick cash withdrawals</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-search-dollar"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Balance Enquiry</h4>
+                                <p>Check your account balance</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-file-invoice-dollar"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Loan Lead</h4>
+                                <p>Apply for loans</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Insurance Services -->
+                <div class="service-category">
+                    <div class="service-category-header">
+                        <h3>Insurance Services</h3>
+                    </div>
+                    <div class="service-list">
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Life Insurance</h4>
+                                <p>Protect your family's future</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>General Insurance</h4>
+                                <p>Comprehensive coverage options</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aadhar Services -->
+                <div class="service-category">
+                    <div class="service-category-header">
+                        <h3>Aadhar</h3>
+                    </div>
+                    <div class="service-list">
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-fingerprint"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Enrolment</h4>
+                                <p>Enroll for Aadhar</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-edit"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Correction</h4>
+                                <p>Correct Aadhar details</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Services -->
+                <div class="service-category">
+                    <div class="service-category-header">
+                        <h3>Education Services</h3>
+                    </div>
+                    <div class="service-list">
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Online Course</h4>
+                                <p>Enroll in online courses</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Olympiad</h4>
+                                <p>Participate in Olympiad exams</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-clipboard-list"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Sarkari Pariksha</h4>
+                                <p>Prepare for government exams</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking Services -->
+                <div class="service-category">
+                    <div class="service-category-header">
+                        <h3>Booking</h3>
+                    </div>
+                    <div class="service-list">
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-train"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Train</h4>
+                                <p>Book train tickets</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Flight</h4>
+                                <p>Book flight tickets</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon-container">
+                                <i class="fas fa-bus"></i>
+                            </div>
+                            <div class="service-info">
+                                <h4>Bus</h4>
+                                <p>Book bus tickets</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How To Order Section -->
+    <section id="how-to-order" class="how-to-order">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h4>Find a CSC Center</h4>
+                    <p>Locate your nearest CSC Center</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h4>Choose a Service</h4>
+                    <p>Select from our wide range of services</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon"><i class="fas fa-file-signature"></i></div>
+                    <h4>Submit Documents</h4>
+                    <p>Provide necessary information and documents</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+                    <h4>Get Your Service</h4>
+                    <p>Receive your requested service quickly</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="2.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <p>Hello, I am [Your Name], the founder of CSC Center. With a passion for helping people and a background in [Your Background], I started this center to provide essential services to the community. My goal is to make government, banking, and insurance services accessible to everyone, right at their doorstep.</p>
+                    <p>I believe in empowering people through education and access to essential services. I am committed to delivering high-quality services that meet the needs of our customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Vision Section -->
+    <section id="my-vision" class="my-vision">
+        <div class="container">
+            <h2>My Vision</h2>
+            <div class="vision-content">
+                <p>My vision is to create a network of CSC Centers across the country, ensuring that every individual has access to essential services. I aim to bridge the gap between the government and the people, making services more accessible and efficient.</p>
+                <p>I envision a future where technology and human touch work together to provide seamless services. I am dedicated to continuous improvement and innovation to better serve our community.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <p><i class="fas fa-map-marker-alt"></i> Tilkadih, Rajpura, Jharkhand 828204</p>
+                    <p><i class="fas fa-phone"></i> +91 8987978781</p>
+                    <p><i class="fas fa-envelope"></i> chhotuh71@gmail.com</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.9290132339735!2d86.7697517!3d23.7693637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6dda9649e11bb%3A0x58e1164abd989dd1!2sCSC%20CENTER!5e0!3m2!1sen!2sin!4v1695123045900!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>SewaCenter</h3>
+                    <p>Your trusted partner for essential services.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#how-to-order">How It Works</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#my-vision">My Vision</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SewaCenter. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
